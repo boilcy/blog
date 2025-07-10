@@ -119,7 +119,7 @@ First, users tend to configure their favourite MCP Servers in their Client and l
 
 Second, most MCP Servers and Clients disconnect after a period of inactivity, resuming when necessary. This inevitably means that immediate push notifications would be missed - as the notification channel will have been closed. In practice, it is far simpler for the Client to refresh the connection and Tool List as needed.
 
-Unless you have reasonable control over the Client/Server pair, using **Server Push Streams** adds a lot of complexity to a public deployment, when lower-resource solutions for refreshing the Tool List exist.
+Unless you have reasonable control over the Client/Server pair, using **Server Push Streams** adds a lot of complexity to a public deployment, when simpler lower-resource solutions exist for refreshing the Tool List exist.
 
 #### URL User Experience
 
