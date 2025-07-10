@@ -82,7 +82,7 @@ The table below summarizes the MCP Features and their supported communication pa
 | Tools, Prompts, Resources | Y                            | Y                                      | Y |
 | Sampling/Elicitation      | Server Initiated at any time | Related to a Client initiated request | N        |
 | Resource Subscriptions     | Y                            | N                                      | N        |
-| Tool/Prompt List Changes   | Y                            | N                                      | N        |
+| Tool,Prompt and Resource List Changes   | Y                            | N                                      | N        |
 | Tool Progress Notification | -                            | Y                                      | N        |
 
 With Request Scoped streams, Sampling and Elicitation requests need a Stateful connection so that the `mcp-session-id` can be used for response association.
